@@ -55,9 +55,8 @@
 					</span>&nbsp;&nbsp;&nbsp;
 			 	</span>
 				<span id="phone">Call 425-450-0800</span>
-			</div>
-		 </div>
-		</div>
+			</div><!--End Container-->
+		</div><!--end header-->
 		<div id="navigation" role="navigation">
 		 <div class="container">
 			<div class="row">
