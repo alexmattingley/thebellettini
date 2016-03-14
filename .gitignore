@@ -5,7 +5,7 @@ wp-content/plugins
 wp-content/plugins/*
 wp-content/vendor/
 wp-content/vendor/*
-
+wp-conent/themes/bare_theme/.sass-cache
 
 # ignore specific themes
 wp-content/themes/twenty*/
