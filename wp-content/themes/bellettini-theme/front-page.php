@@ -99,113 +99,113 @@
 				</div><!--end row-->
 			</div><!--End container-->
 		</div><!--end navigation-->
-	<div id="content">
-	 <div class="container">
-		<div id="banner">
-		 <img src="/uploads/home940.jpg" />
+		<div id="content">
+			<div class="container">
+				<div id="banner">
+					<img src="/uploads/home940.jpg" />
+				</div>
+				<div class="row" id="home_video_panel">
+				    <div id="home_video" class="col-md-5">
+				        <a href="https://www.youtube.com/watch?v=7xAlWy0wu40" rel="prettyPhoto"><img src="/img/video_button_sm.jpg" /></a> <!-- https://www.youtube.com/watch?v=7xAlWy0wu40 -->
+				    </div>
+			        <div id="home_video_text" class="col-md-7">
+			       		<h2>Happy World Gratitude Day</h2>
+			       		<p><span style="font-style:italic;">“In Honor of World Gratitude Day, a day to give thanks and appreciation to others, we've created a series of videos titled, Thank You Notes. These videos feature our seniors and staff showing their appreciation for each other.”</span><p>
+			 			<p>We hope these videos will inspire you to take a minute and show your appreciation for someone special in your life.</p>
+				        <div class="tdcms-form-actions">
+				           <input type="button" class="btn" value="See the new Video!" onClick="window.open('http://www.westliving.net/thank-you-notes/', '_blank')" style="margin:-12px 0 12px 0;"> <!-- http://www.westliving.net/thank-you-notes/ -->
+				        </div>
+			        </div>
+			    </div>
+				<div class="row">
+					<div id="content-text" class="col-md-8">
+						<h1 id="homeHeading">BELLEVUE SENIOR LIVING </h1>
+						<p><h1>WELCOME TO WORLD CLASS-SERVICE. WELCOME TO COMFORTABLE, ELEGANT SURROUNDINGS. WELCOME TO SENIOR LIVING IN BELLEVUE, WESTLIVING STYLE.</h1>
+						Here at The Bellettini, we're dedicated to offering a true sense of belonging to seniors and their families. It's a feeling you'll notice the moment you're invited to &ldquo;make yourself at home&rdquo; and continues through every thoughtful, personal detail.  <br />
+						<br />
+						As part of the <a href="http://www.westliving.net" target="_blank">WESTliving</a> family, we understand the importance of world-class service. In fact, we even have a name for it: WESTclass service. We hire carefully and train extensively. The result? Team Members who are empowered to make a meaningful difference in the lives of those we serve and inspired to anticipate your next need - before you even know you have a next need. <br />
+						<br />
+						From independent living and assisted living the WESTliving experience creates and encourages a sense of belonging.  Our culture of hospitality in senior living also promotes privacy, dignity and a sense of empowerment.  A variety of activities including gardening, art classes, local tours and tai chi await here at The Bellettini. Not to mention it's right in the heart of Bellevue, Washington sitting next to the Bellevue Library.  <br />
+						<br />
+						Come see for yourself how The Bellettini senior living community can become your warm, welcoming place to call home. We'd love to show you around and allow you to experience for yourself a true sense of belonging!  We are here to serve!   <br /></p>
+					</div>
+					<div id="lunchTour" class="col-md-4">
+				      <a href="/contact"><img class="" src="img/lunch-tour.jpg" /></a><br/>
+					</div>
+					<script type='text/javascript' src='http://www.westliving.net/wp-content/themes/duena/js/jquery.wl-formbuilder.js?ver=1.1'></script>
+					<script>
+					jQuery(document).ready(function($){
+						$('body').wl_formBuilder({
+							formTitle: 'Contact Us',
+							fields: {
+								1: 'name',
+								2: 'email',
+								3: 'phone',
+								4: 'message',
+							},
+							submitText: 'Submit',
+							thankyouPage: '/contact/thank-you'
+						});
+					});
+					</script>
+					<div class="well">
+					  <h2>Get More Information</h2>
+					  <div class="instrux">Please complete the form below.<br />Mandatory fields marked *</div>
+					  <div class="formbuilder-container"></div>
+					</div>
+				</div> <!--end row-->
+			</div>
 		</div>
-
-		<div class="row" id="home_video_panel">
-	       <div id="home_video" class="col-md-5">
-	         <a href="https://www.youtube.com/watch?v=7xAlWy0wu40" rel="prettyPhoto"><img src="/img/video_button_sm.jpg" /></a> <!-- https://www.youtube.com/watch?v=7xAlWy0wu40 -->
-	       </div>
-	       <div id="home_video_text" class="col-md-7">
-	         <h2>Happy World Gratitude Day</h2>
-	         <p><span style="font-style:italic;">“In Honor of World Gratitude Day, a day to give thanks and appreciation to others, we've created a series of videos titled, Thank You Notes. These videos feature our seniors and staff showing their appreciation for each other.”</span><p>
-	   <p>We hope these videos will inspire you to take a minute and show your appreciation for someone special in your life.</p>
-	         <div class="tdcms-form-actions">
-	            <input type="button" class="btn" value="See the new Video!" onClick="window.open('http://www.westliving.net/thank-you-notes/', '_blank')" style="margin:-12px 0 12px 0;"> <!-- http://www.westliving.net/thank-you-notes/ -->
-	         </div>
-	       </div>
-	   </div>
-
-		<div class="row">
-		 <div id="content-text" class="col-md-8">
-			<h1 id="homeHeading">BELLEVUE SENIOR LIVING </h1>
-			<p><h1>WELCOME TO WORLD CLASS-SERVICE. WELCOME TO COMFORTABLE, ELEGANT SURROUNDINGS. WELCOME TO SENIOR LIVING IN BELLEVUE, WESTLIVING STYLE.</h1>
-	Here at The Bellettini, we're dedicated to offering a true sense of belonging to seniors and their families. It's a feeling you'll notice the moment you're invited to &ldquo;make yourself at home&rdquo; and continues through every thoughtful, personal detail.  <br />
-	<br />
-	As part of the <a href="http://www.westliving.net" target="_blank">WESTliving</a> family, we understand the importance of world-class service. In fact, we even have a name for it: WESTclass service. We hire carefully and train extensively. The result? Team Members who are empowered to make a meaningful difference in the lives of those we serve and inspired to anticipate your next need - before you even know you have a next need. <br />
-	<br />
-	From independent living and assisted living the WESTliving experience creates and encourages a sense of belonging.  Our culture of hospitality in senior living also promotes privacy, dignity and a sense of empowerment.  A variety of activities including gardening, art classes, local tours and tai chi await here at The Bellettini. Not to mention it's right in the heart of Bellevue, Washington sitting next to the Bellevue Library.  <br />
-	<br />
-	Come see for yourself how The Bellettini senior living community can become your warm, welcoming place to call home. We'd love to show you around and allow you to experience for yourself a true sense of belonging!  We are here to serve!   <br /></p>
-		 </div>
-		 <div id="lunchTour" class="col-md-4">
-	      <a href="/contact"><img class="" src="img/lunch-tour.jpg" /></a><br />
-	     
-	<script type='text/javascript' src='http://www.westliving.net/wp-content/themes/duena/js/jquery.wl-formbuilder.js?ver=1.1'></script>
-	<script>
-	jQuery(document).ready(function($){
-		$('body').wl_formBuilder({
-			formTitle: 'Contact Us',
-			fields: {
-				1: 'name',
-				2: 'email',
-				3: 'phone',
-				4: 'message',
-			},
-			submitText: 'Submit',
-			thankyouPage: '/contact/thank-you'
-		});
-	});
-	</script>
-	<div class="well">
-	  <h2>Get More Information</h2>
-	  <div class="instrux">Please complete the form below.<br />Mandatory fields marked *</div>
-	  <div class="formbuilder-container"></div>
-	</div>
-	    </div>
-
-		</div>
-
-	 </div>
-	</div>
 		<div id="footer">
-		 <div class="container"><div class="row">
-			<div class="col-md-4 col-sm-12 hidden-sm hidden-xs"><div class="row">
-			 <div class="col-sm-4">
-				<ul >
-					<li ><a href="/community">Community</a></li>
-					<li class="active"><a href="/neighborhood">Neighborhood</a></li>
-					<li ><a href="/gallery">Photo Gallery</a></li>
-					<li ><a href="/lifestyle">Lifestyle</a></li>
-					<li ><a href="/contact">Contact</a></li>
-				</ul>
-			 </div>
-			 <div class="col-sm-4">
-				<ul>
-				 <li><a href="/contact">Lunch & Tour</a></li>
-				 <li><a href="/about">About Us</a></li>
-				 <li><a href="http://www.westliving.net/careers/" target="_blank">Careers</a></li>
-				</ul>
-			 </div>
-			 <div class="col-sm-4">
-				<ul>
-				 <li><a href="/about/privacy">Privacy Policy</a></li>
-				</ul>
-			 </div>
-			</div></div>
-			<div class="col-md-8 col-sm-12"><div class="row">
-			 <div class="col-sm-6">
-				<p>
-				 The Bellettini, 1115 108th Ave NE, Bellevue, WA 98004<br>
-				 Bellevue senior living residences<br>
-				 Retirement homes<br>
-				 Retirement communities in Washington
-				</p>
-			 </div>
-			 <div class="col-sm-6">
-				<p>
-				 &copy; Copyright 2016, The Bellettini. All Rights Reserved.<br>
-				 Website content by <a href="http://www.staffordcreative.com" target="_blank">Stafford Creative</a><br>
-				 Website development by <a href="http://www.gagedesign.com" target="_blank">Gage Design</a>
-				</p>
-	<div id="social_connect" style="font-size:12px;">Connect with Us:</div>
-	<div id="social_media" style="font-size:28px;"><a href="https://twitter.com/WESTlivingLLC" target="_blank"><i class="fa fa-twitter-square"></i></a>&nbsp;<a href="https://plus.google.com/111680785284740530618/videos" target="_blank"><i class="fa fa-google-plus-square"></i></a>&nbsp;<a href="https://www.youtube.com/channel/UCWWbscxwc_Z3KpL4gN_D5Iw" target="_blank"><i class="fa fa-youtube-square"></i></a>&nbsp;<a href="https://www.linkedin.com/company/west-living?trk=prof-following-company-logo" target="_blank"><i class="fa fa-linkedin-square"></i></a>&nbsp;<a href="https://www.facebook.com/west.living.3?fref=ts" target="_blank"><i class="fa fa-facebook-square"></i></a></div>		 </div>
-			</div></div>
-		 </div></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-12 hidden-sm hidden-xs">
+						<div class="row">
+							<div class="col-sm-4">
+								<ul >
+									<li ><a href="/community">Community</a></li>
+									<li class="active"><a href="/neighborhood">Neighborhood</a></li>
+									<li ><a href="/gallery">Photo Gallery</a></li>
+									<li ><a href="/lifestyle">Lifestyle</a></li>
+									<li ><a href="/contact">Contact</a></li>
+								</ul>
+							 </div>
+							 <div class="col-sm-4">
+								<ul>
+								 <li><a href="/contact">Lunch & Tour</a></li>
+								 <li><a href="/about">About Us</a></li>
+								 <li><a href="http://www.westliving.net/careers/" target="_blank">Careers</a></li>
+								</ul>
+							 </div>
+							 <div class="col-sm-4">
+								<ul>
+									<li><a href="/about/privacy">Privacy Policy</a></li>
+								</ul>
+							 </div>
+						</div><!--end row-->
+					</div><!--End hidden-sm-->
+					<div class="col-md-8 col-sm-12">
+						<div class="row">
+							<div class="col-sm-6">
+								<p>
+								 The Bellettini, 1115 108th Ave NE, Bellevue, WA 98004<br>
+								 Bellevue senior living residences<br>
+								 Retirement homes<br>
+								 Retirement communities in Washington
+								</p>
+							 </div>
+							 <div class="col-sm-6">
+								<p>
+								 &copy; Copyright 2016, The Bellettini. All Rights Reserved.<br>
+								 Website content by <a href="http://www.staffordcreative.com" target="_blank">Stafford Creative</a><br>
+								 Website development by <a href="http://www.gagedesign.com" target="_blank">Gage Design</a>
+								</p>
+							<div id="social_connect" style="font-size:12px;">Connect with Us:</div>
+							<div id="social_media" style="font-size:28px;"><a href="https://twitter.com/WESTlivingLLC" target="_blank"><i class="fa fa-twitter-square"></i></a>&nbsp;<a href="https://plus.google.com/111680785284740530618/videos" target="_blank"><i class="fa fa-google-plus-square"></i></a>&nbsp;<a href="https://www.youtube.com/channel/UCWWbscxwc_Z3KpL4gN_D5Iw" target="_blank"><i class="fa fa-youtube-square"></i></a>&nbsp;<a href="https://www.linkedin.com/company/west-living?trk=prof-following-company-logo" target="_blank"><i class="fa fa-linkedin-square"></i></a>&nbsp;<a href="https://www.facebook.com/west.living.3?fref=ts" target="_blank"><i class="fa fa-facebook-square"></i></a></div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-
 	</body>
 </html>
