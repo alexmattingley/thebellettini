@@ -62,12 +62,12 @@
 				<div class="row">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-						 <span class="sr-only">Toggle navigation</span>
-						 <span class="icon-bar"></span>
-						 <span class="icon-bar"></span>
-						 <span class="icon-bar"></span>
+							 <span class="sr-only">Toggle navigation</span>
+							 <span class="icon-bar"></span>
+							 <span class="icon-bar"></span>
+							 <span class="icon-bar"></span>
 						</button>
-					</div>
+					</div> <!--end navbar-header-->
 					<div class="collapse navbar-collapse">
 						<ul id="main-menu" class="nav navbar-nav">		
 							<li class=""><a href="/community">Community</a>
@@ -94,13 +94,11 @@
 							<li class=""><a href="/gallery">Photo Gallery</a></li>
 							<li class=""><a href="/contact">Contact</a></li>
 							<li class=""><a href="/contact/map">Maps & Directions</a></li>	
-			<ul>
-					</ul>
-
-				 </div>
-				</div>
-			 </div>
-		</div>
+						</ul><!--End navbar-nav-->
+				 	</div><!--End navbar-collapse-->
+				</div><!--end row-->
+			</div><!--End container-->
+		</div><!--end navigation-->
 	<div id="content">
 	 <div class="container">
 		<div id="banner">
