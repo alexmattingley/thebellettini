@@ -12,12 +12,12 @@
 				</div>
 				<div class="row" id="home_video_panel">
 				    <div id="home_video" class="col-md-5">
-				        <a href="https://www.youtube.com/watch?v=7xAlWy0wu40" rel="prettyPhoto"><img src="<?php echo $images_folder ?>/video_button_sm.jpg" /></a>
+				        <iframe width="100%" height="250px" src="<?php echo get_field('post_iframe_link') ?>" frameborder="0" allowfullscreen></iframe>
 				    </div>
 			        <div id="home_video_text" class="col-md-7">
 			       		<?php echo get_field('video_description_and_text'); ?>
 				        <div class="tdcms-form-actions">
-				           <input type="button" class="btn" value="See the new Video!" onClick="window.open('http://www.westliving.net/thank-you-notes/', '_blank')" style="margin:-12px 0 12px 0;"> <!-- http://www.westliving.net/thank-you-notes/ -->
+				           <button class="btn"><a href="<?php echo get_field('post_iframe_link') ?>" target="_blank">See the New Video!</a></button>
 				        </div>
 			        </div>
 			    </div>

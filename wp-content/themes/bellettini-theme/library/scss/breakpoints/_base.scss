@@ -264,10 +264,11 @@ padding:0px 5px;
 
 #content > .container > .row {
  padding-top: 30px;
+ padding-bottom: 30px;
 }
 
 #content > .container > #banner + .row {
- padding-top: 0;
+
 }
 
 .not-front h1 {
@@ -819,7 +820,6 @@ font-weight:bold !important;
 }
 
 #home_video {
-   padding: 0;  
    background-color: #F5F3E4;
 }
 
