@@ -22,6 +22,7 @@ body {
  position: relative;
  background-color: #616161;
  font-size: 14px;
+ height: auto;
 }
 
 a {
@@ -53,14 +54,7 @@ label {
 img.full-width {
  width: 100%;
 }
-*[class*='col'] {
- padding-left: 10px;
- padding-right: 10px;
-}
-.row {
- margin-left: -10px;
- margin-right: -10px;
-}
+
 #lightbox .lb-next,
 #lightbox .lb-prev {
  width: 50%;
@@ -218,7 +212,7 @@ padding:0px 5px;
  font-weight: bold;
 }
 #content {
- padding-bottom: 25px;
+ padding-bottom: 200px;
  background-color: white;
 }
 #content > .container > .row {
