@@ -1,108 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="">
-		<meta name="author" content="">
-		<meta name="keywords" content="assisted living, retirement communities, retirement homes, senior housing, senior living communities, senior apartments, Tacoma, Kent WA, Bellevue WA, Seattle, Kirkland, Mercer Isl">
-		<meta name="description" content="Blaze your own Retirement at the Bellettini in Bellevue, WA. We cordially invite you to begin your Retirement search here.">
-		<meta name="msvalidate.01" content="7D773484DA735451237F83AB0645954D" />
-		<meta name="google-site-verification" content="ZS7MB87-6n_2Q5JUDhRSKDW7z77NBbtkhpdR5Ghfefw" />
-		<meta name="verify-v1" content="9J4/Y+19hbnaZS8UZcxwBWWYq/njyXcateThopesuUU=" />
-		<!--<link rel="shortcut icon" href="favicon.ico">-->
-		<title>Retirement Communities Bellevue | Senior Housing Eastside | Assisted Living Bellevue | The Bellettini</title>
-		<link href="/css/bootstrap.min.css" rel="stylesheet">
-		<link href="/css/style.css" rel="stylesheet">
-	   <link href="/css/prettyphoto.css" rel="stylesheet">
-	   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-		<script src="/js/jquery.min.js"></script>
-		<script src="/js/bootstrap.min.js"></script>
-		<script src="/js/mutate.events.js"></script>
-		<script src="/js/mutate.min.js"></script>
-	   <script src="/js/prettyphoto.js" type="text/javascript"></script>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
-	   <script src="/js/script.js"></script>
-		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-		  ga('create', 'UA-3112889-2', 'auto');
-		  ga('send', 'pageview');
-		</script>
-	</head>
-	<body>
-		<div id="bars">
-			<div class="orange"></div>
-			<div class="green"></div>
-			<div class="red"></div>
-		</div>
-		<div id="header">
-			<div class="container">
-				<a href="/"><img id="logo" class="full-width" src="/img/logo.jpg" /></a>
-				<div id="top-links">
-			 	<span class="hidden-xs">
-					<span class="top-links">
-						 <a href="/about">About Us</a>&nbsp;&nbsp;&nbsp;
-						 <a href="http://www.westliving.net/careers/" target="_blank">Careers</a>
-					</span>&nbsp;&nbsp;&nbsp;
-					<span id="font-size">
-						<img class="plus" src="/img/plus.png" />
-						<img class="reset" src="/img/aa.png" />
-						<img class="minus" src="/img/minus.png" />
-					</span>&nbsp;&nbsp;&nbsp;
-			 	</span>
-				<span id="phone">Call 425-450-0800</span>
-			</div><!--End Container-->
-		</div><!--end header-->
-		<div id="navigation" role="navigation">
-			<div class="container">
-				<div class="row">
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-							 <span class="sr-only">Toggle navigation</span>
-							 <span class="icon-bar"></span>
-							 <span class="icon-bar"></span>
-							 <span class="icon-bar"></span>
-						</button>
-					</div> <!--end navbar-header-->
-					<div class="collapse navbar-collapse">
-						<ul id="main-menu" class="nav navbar-nav">		
-							<li class=""><a href="/community">Community</a>
-								<ul>
-									<li class=""><a href="/community/features">Features & Amenities</a></li>
-									<li class=""><a href="/community/floorplans">Floor Plans</a></li>
-								</ul>
-							</li>
-							<li class=""><a href="/neighborhood">Neighborhood</a>
-								<ul>
-									<li class=""><a href="/neighborhood/vicinity-map">Vicinity Map</a></li>
-									<li class=""><a href="/neighborhood/local-attractions">Local Attractions</a></li>
-								</ul>
-							</li>
-							<li class=""><a href="/lifestyle">Lifestyle</a>
-								<ul>
-									<li class=""><a href="/lifestyle/dining">Dining</a></li>
-									<li class=""><a href="/lifestyle/health">Health & Wellness</a></li>
-									<li class=""><a href="/lifestyle/travel">Travel</a></li>
-									<li class=""><a href="/lifestyle/social">Social</a></li>
-									<li class=""><a href="/lifestyle/concierge">Concierge</a></li>
-								<ul>
-							</li>
-							<li class=""><a href="/gallery">Photo Gallery</a></li>
-							<li class=""><a href="/contact">Contact</a></li>
-							<li class=""><a href="/contact/map">Maps & Directions</a></li>	
-						</ul><!--End navbar-nav-->
-				 	</div><!--End navbar-collapse-->
-				</div><!--end row-->
-			</div><!--End container-->
-		</div><!--end navigation-->
+<?php 
+	//Page variables:
+	$images_folder = "/wp-content/themes/bellettini-theme/library/images";
+?>
+
+
+<?php get_header(); ?>
 		<div id="content">
 			<div class="container">
 				<div id="banner">
-					<img src="/uploads/home940.jpg" />
+					<img src="<?php echo $images_folder ?>/home940.jpg" />
 				</div>
 				<div class="row" id="home_video_panel">
 				    <div id="home_video" class="col-md-5">
@@ -156,56 +62,4 @@
 				</div> <!--end row-->
 			</div>
 		</div>
-		<div id="footer">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4 col-sm-12 hidden-sm hidden-xs">
-						<div class="row">
-							<div class="col-sm-4">
-								<ul >
-									<li ><a href="/community">Community</a></li>
-									<li class="active"><a href="/neighborhood">Neighborhood</a></li>
-									<li ><a href="/gallery">Photo Gallery</a></li>
-									<li ><a href="/lifestyle">Lifestyle</a></li>
-									<li ><a href="/contact">Contact</a></li>
-								</ul>
-							 </div>
-							 <div class="col-sm-4">
-								<ul>
-								 <li><a href="/contact">Lunch & Tour</a></li>
-								 <li><a href="/about">About Us</a></li>
-								 <li><a href="http://www.westliving.net/careers/" target="_blank">Careers</a></li>
-								</ul>
-							 </div>
-							 <div class="col-sm-4">
-								<ul>
-									<li><a href="/about/privacy">Privacy Policy</a></li>
-								</ul>
-							 </div>
-						</div><!--end row-->
-					</div><!--End hidden-sm-->
-					<div class="col-md-8 col-sm-12">
-						<div class="row">
-							<div class="col-sm-6">
-								<p>
-								 The Bellettini, 1115 108th Ave NE, Bellevue, WA 98004<br>
-								 Bellevue senior living residences<br>
-								 Retirement homes<br>
-								 Retirement communities in Washington
-								</p>
-							 </div>
-							 <div class="col-sm-6">
-								<p>
-								 &copy; Copyright 2016, The Bellettini. All Rights Reserved.<br>
-								 Website content by <a href="http://www.staffordcreative.com" target="_blank">Stafford Creative</a><br>
-								 Website development by <a href="http://www.gagedesign.com" target="_blank">Gage Design</a>
-								</p>
-							<div id="social_connect" style="font-size:12px;">Connect with Us:</div>
-							<div id="social_media" style="font-size:28px;"><a href="https://twitter.com/WESTlivingLLC" target="_blank"><i class="fa fa-twitter-square"></i></a>&nbsp;<a href="https://plus.google.com/111680785284740530618/videos" target="_blank"><i class="fa fa-google-plus-square"></i></a>&nbsp;<a href="https://www.youtube.com/channel/UCWWbscxwc_Z3KpL4gN_D5Iw" target="_blank"><i class="fa fa-youtube-square"></i></a>&nbsp;<a href="https://www.linkedin.com/company/west-living?trk=prof-following-company-logo" target="_blank"><i class="fa fa-linkedin-square"></i></a>&nbsp;<a href="https://www.facebook.com/west.living.3?fref=ts" target="_blank"><i class="fa fa-facebook-square"></i></a></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</body>
-</html>
+<?php get_footer(); ?>

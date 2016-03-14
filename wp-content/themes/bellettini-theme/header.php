@@ -37,41 +37,78 @@
 
 		<?php // drop Google Analytics Here ?>
 		<?php // end analytics ?>
+		<?php 
+
+		//Page variables:
+		$images_folder = "/wp-content/themes/bellettini-theme/library/images";
+		?>
 
 	</head>
 
-	<body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
-
-		<div id="container">
-
-			<header class="header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
-
-				<div id="inner-header" class="wrap cf">
-
-					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
-					<p id="logo" class="h1" itemscope itemtype="http://schema.org/Organization"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
-
-					<?php // if you'd like to use the site description you can un-comment it below ?>
-					<?php // bloginfo('description'); ?>
-
-
-					<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
-						<?php wp_nav_menu(array(
-    					         'container' => false,                           // remove nav container
-    					         'container_class' => 'menu cf',                 // class of container (should you choose to use it)
-    					         'menu' => __( 'The Main Menu', 'bonestheme' ),  // nav name
-    					         'menu_class' => 'nav top-nav cf',               // adding custom nav class
-    					         'theme_location' => 'main-nav',                 // where it's located in the theme
-    					         'before' => '',                                 // before the menu
-        			               'after' => '',                                  // after the menu
-        			               'link_before' => '',                            // before each link
-        			               'link_after' => '',                             // after each link
-        			               'depth' => 0,                                   // limit the depth of the nav
-    					         'fallback_cb' => ''                             // fallback function (if there is one)
-						)); ?>
-
-					</nav>
-
+	<body>
+		<div id="bars">
+			<div class="orange"></div>
+			<div class="green"></div>
+			<div class="red"></div>
+		</div>
+		<div id="header">
+			<div class="container">
+				<a href="/"><img id="logo" class="full-width" src="<?php echo $images_folder ?>/logo.jpg" /></a>
+				<div id="top-links">
+			 	<span class="hidden-xs">
+					<span class="top-links">
+						 <a href="/about">About Us</a>
+						 <a href="http://www.westliving.net/careers/" target="_blank">Careers</a>
+					</span>
+					<span id="font-size">
+						<img class="plus" src="<?php echo $images_folder ?>/plus.png" />
+						<img class="reset" src="<?php echo $images_folder ?>/aa.png" />
+						<img class="minus" src="<?php echo $images_folder ?>/minus.png" />
+					</span>&nbsp;&nbsp;&nbsp;
+			 	</span>
+				<span id="phone">Call 425-450-0800</span>
 				</div>
-
-			</header>
+			</div><!--End Container-->
+		</div><!--end header-->
+		<div id="navigation" role="navigation">
+			<div class="container">
+				<div class="row">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							 <span class="sr-only">Toggle navigation</span>
+							 <span class="icon-bar"></span>
+							 <span class="icon-bar"></span>
+							 <span class="icon-bar"></span>
+						</button>
+					</div> <!--end navbar-header-->
+					<div class="collapse navbar-collapse">
+						<ul id="main-menu" class="nav navbar-nav">		
+							<li class=""><a href="/community">Community</a>
+								<ul>
+									<li class=""><a href="/community/features">Features & Amenities</a></li>
+									<li class=""><a href="/community/floorplans">Floor Plans</a></li>
+								</ul>
+							</li>
+							<li class=""><a href="/neighborhood">Neighborhood</a>
+								<ul>
+									<li class=""><a href="/neighborhood/vicinity-map">Vicinity Map</a></li>
+									<li class=""><a href="/neighborhood/local-attractions">Local Attractions</a></li>
+								</ul>
+							</li>
+							<li class=""><a href="/lifestyle">Lifestyle</a>
+								<ul>
+									<li class=""><a href="/lifestyle/dining">Dining</a></li>
+									<li class=""><a href="/lifestyle/health">Health & Wellness</a></li>
+									<li class=""><a href="/lifestyle/travel">Travel</a></li>
+									<li class=""><a href="/lifestyle/social">Social</a></li>
+									<li class=""><a href="/lifestyle/concierge">Concierge</a></li>
+								<ul>
+							</li>
+							<li class=""><a href="/gallery">Photo Gallery</a></li>
+							<li class=""><a href="/contact">Contact</a></li>
+							<li class=""><a href="/contact/map">Maps & Directions</a></li>	
+						</ul><!--End navbar-nav-->
+				 	</div><!--End navbar-collapse-->
+				</div><!--end row-->
+			</div><!--End container-->
+		</div><!--end navigation-->
