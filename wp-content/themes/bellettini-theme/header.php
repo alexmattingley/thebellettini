@@ -102,7 +102,7 @@
 									<li class=""><a href="/lifestyle/travel">Travel</a></li>
 									<li class=""><a href="/lifestyle/social">Social</a></li>
 									<li class=""><a href="/lifestyle/concierge">Concierge</a></li>
-								<ul>
+								</ul>
 							</li>
 							<li class=""><a href="/gallery">Photo Gallery</a></li>
 							<li class=""><a href="/contact">Contact</a></li>
