@@ -64,7 +64,7 @@
 						<img class="plus" src="<?php echo $images_folder ?>/plus.png" />
 						<img class="reset" src="<?php echo $images_folder ?>/aa.png" />
 						<img class="minus" src="<?php echo $images_folder ?>/minus.png" />
-					</span>&nbsp;&nbsp;&nbsp;
+					</span>
 			 	</span>
 				<span id="phone">Call 425-450-0800</span>
 				</div>

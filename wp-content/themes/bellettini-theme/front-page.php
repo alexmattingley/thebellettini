@@ -15,9 +15,7 @@
 				        <a href="https://www.youtube.com/watch?v=7xAlWy0wu40" rel="prettyPhoto"><img src="<?php echo $images_folder ?>/video_button_sm.jpg" /></a>
 				    </div>
 			        <div id="home_video_text" class="col-md-7">
-			       		<h2>Happy World Gratitude Day</h2>
-			       		<p><span style="font-style:italic;">“In Honor of World Gratitude Day, a day to give thanks and appreciation to others, we've created a series of videos titled, Thank You Notes. These videos feature our seniors and staff showing their appreciation for each other.”</span><p>
-			 			<p>We hope these videos will inspire you to take a minute and show your appreciation for someone special in your life.</p>
+			       		<?php echo get_field('video_description_and_text'); ?>
 				        <div class="tdcms-form-actions">
 				           <input type="button" class="btn" value="See the new Video!" onClick="window.open('http://www.westliving.net/thank-you-notes/', '_blank')" style="margin:-12px 0 12px 0;"> <!-- http://www.westliving.net/thank-you-notes/ -->
 				        </div>
@@ -36,7 +34,7 @@
 						Come see for yourself how The Bellettini senior living community can become your warm, welcoming place to call home. We'd love to show you around and allow you to experience for yourself a true sense of belonging!  We are here to serve!   <br /></p>
 					</div>
 					<div id="lunchTour" class="col-md-4">
-				      <a href="/contact"><img class="" src="img/lunch-tour.jpg" /></a><br/>
+				      <a href="/contact"><img class="" src="<?php echo $images_folder ?>/lunch-tour.jpg" /></a><br/>
 						<script type='text/javascript' src='http://www.westliving.net/wp-content/themes/duena/js/jquery.wl-formbuilder.js?ver=1.1'></script>
 						<script>
 						jQuery(document).ready(function($){
