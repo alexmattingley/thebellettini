@@ -12,7 +12,7 @@
 				</div>
 				<div class="row" id="home_video_panel">
 				    <div id="home_video" class="col-md-5">
-				        <a href="https://www.youtube.com/watch?v=7xAlWy0wu40" rel="prettyPhoto"><img src="/img/video_button_sm.jpg" /></a> <!-- https://www.youtube.com/watch?v=7xAlWy0wu40 -->
+				        <a href="https://www.youtube.com/watch?v=7xAlWy0wu40" rel="prettyPhoto"><img src="<?php echo $images_folder ?>/video_button_sm.jpg" /></a>
 				    </div>
 			        <div id="home_video_text" class="col-md-7">
 			       		<h2>Happy World Gratitude Day</h2>
