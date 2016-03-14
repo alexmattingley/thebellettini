@@ -8,7 +8,7 @@
 		<div id="content">
 			<div class="container">
 				<div id="banner">
-					<img src="<?php echo $images_folder ?>/home940.jpg" />
+					<img src="<?php echo get_field('featured_banner_image'); ?>" />
 				</div>
 				<div class="row" id="home_video_panel">
 				    <div id="home_video" class="col-md-5">
@@ -24,7 +24,7 @@
 				<div class="row">
 					<div id="content-text" class="col-md-8">
 						<h1 id="homeHeading">BELLEVUE SENIOR LIVING </h1>
-						<p><h1>WELCOME TO WORLD CLASS-SERVICE. WELCOME TO COMFORTABLE, ELEGANT SURROUNDINGS. WELCOME TO SENIOR LIVING IN BELLEVUE, WESTLIVING STYLE.</h1>
+						<p><h3>WELCOME TO WORLD CLASS-SERVICE. WELCOME TO COMFORTABLE, ELEGANT SURROUNDINGS. WELCOME TO SENIOR LIVING IN BELLEVUE, WESTLIVING STYLE.</h3>
 						Here at The Bellettini, we're dedicated to offering a true sense of belonging to seniors and their families. It's a feeling you'll notice the moment you're invited to &ldquo;make yourself at home&rdquo; and continues through every thoughtful, personal detail.  <br />
 						<br />
 						As part of the <a href="http://www.westliving.net" target="_blank">WESTliving</a> family, we understand the importance of world-class service. In fact, we even have a name for it: WESTclass service. We hire carefully and train extensively. The result? Team Members who are empowered to make a meaningful difference in the lives of those we serve and inspired to anticipate your next need - before you even know you have a next need. <br />
