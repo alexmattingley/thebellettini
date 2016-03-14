@@ -127,7 +127,7 @@ function bones_scripts_and_styles() {
 		// register main stylesheet
 		wp_register_style( 'main-stylesheet', get_stylesheet_directory_uri() . '/library/css/style.css', array(), '', 'all' );
 
-		wp_register_style( 'bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css');
+		wp_register_style( 'bootstrap-css', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css');
 
 		// ie-only style sheet
 		wp_register_style( 'bones-ie-only', get_stylesheet_directory_uri() . '/library/css/ie.css', array(), '' );
@@ -136,12 +136,13 @@ function bones_scripts_and_styles() {
     if ( is_singular() AND comments_open() AND (get_option('thread_comments') == 1)) {
 		  wp_enqueue_script( 'comment-reply' );
     }
-
+    	wp_register_script('bootstrap-js', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js');
+		
 		//adding scripts file in the footer
 		wp_register_script( 'main-js', get_stylesheet_directory_uri() . '/library/js/build/production.min.js', array( 'jquery' ), '', true );
 
 		// enqueue styles and scripts
-		wp_enqueue_style( 'bootstrap' );
+		wp_enqueue_style( 'bootstrap-css' );
 		wp_enqueue_style( 'main-stylesheet' );
 		wp_enqueue_style( 'bones-ie-only' );
 
@@ -153,6 +154,7 @@ function bones_scripts_and_styles() {
 		and your site will load faster.
 		*/
 		wp_enqueue_script( 'jquery' );
+		wp_enqueue_script('bootstrap-js');
 		wp_enqueue_script( 'main-js' );
 
 	}
