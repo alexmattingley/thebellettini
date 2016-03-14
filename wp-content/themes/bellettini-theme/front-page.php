@@ -23,15 +23,12 @@
 			    </div>
 				<div class="row">
 					<div id="content-text" class="col-md-8">
-						<h1 id="homeHeading">BELLEVUE SENIOR LIVING </h1>
-						<p><h3>WELCOME TO WORLD CLASS-SERVICE. WELCOME TO COMFORTABLE, ELEGANT SURROUNDINGS. WELCOME TO SENIOR LIVING IN BELLEVUE, WESTLIVING STYLE.</h3>
-						Here at The Bellettini, we're dedicated to offering a true sense of belonging to seniors and their families. It's a feeling you'll notice the moment you're invited to &ldquo;make yourself at home&rdquo; and continues through every thoughtful, personal detail.  <br />
-						<br />
-						As part of the <a href="http://www.westliving.net" target="_blank">WESTliving</a> family, we understand the importance of world-class service. In fact, we even have a name for it: WESTclass service. We hire carefully and train extensively. The result? Team Members who are empowered to make a meaningful difference in the lives of those we serve and inspired to anticipate your next need - before you even know you have a next need. <br />
-						<br />
-						From independent living and assisted living the WESTliving experience creates and encourages a sense of belonging.  Our culture of hospitality in senior living also promotes privacy, dignity and a sense of empowerment.  A variety of activities including gardening, art classes, local tours and tai chi await here at The Bellettini. Not to mention it's right in the heart of Bellevue, Washington sitting next to the Bellevue Library.  <br />
-						<br />
-						Come see for yourself how The Bellettini senior living community can become your warm, welcoming place to call home. We'd love to show you around and allow you to experience for yourself a true sense of belonging!  We are here to serve!   <br /></p>
+						<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+							
+							<?php the_content(); ?>
+
+						<?php endwhile; else: ?>
+						<?php endif; ?>	
 					</div>
 					<div id="lunchTour" class="col-md-4">
 				      <a href="/contact"><img class="" src="<?php echo $images_folder ?>/lunch-tour.jpg" /></a><br/>
