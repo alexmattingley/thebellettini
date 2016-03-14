@@ -58,49 +58,48 @@
 			</div><!--End Container-->
 		</div><!--end header-->
 		<div id="navigation" role="navigation">
-		 <div class="container">
-			<div class="row">
-			 <div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				 <span class="sr-only">Toggle navigation</span>
-				 <span class="icon-bar"></span>
-				 <span class="icon-bar"></span>
-				 <span class="icon-bar"></span>
-				</button>
-			 </div>
-			 <div class="collapse navbar-collapse">
-
-				<ul id="main-menu" class="nav navbar-nav">
-				
-	<li class=""><a href="/community">Community</a>
-		<ul>
-		<li class=""><a href="/community/features">Features & Amenities</a>
-		<li class=""><a href="/community/floorplans">Floor Plans</a></ul></li></li>
-	<li class=""><a href="/neighborhood">Neighborhood</a>
-		<ul>
-		<li class=""><a href="/neighborhood/vicinity-map">Vicinity Map</a>
-		<li class=""><a href="/neighborhood/local-attractions">Local Attractions</a></ul></li></li>
-	<li class=""><a href="/lifestyle">Lifestyle</a>
-		<ul>
-		<li class=""><a href="/lifestyle/dining">Dining</a>
-		<li class=""><a href="/lifestyle/health">Health & Wellness</a>
+			<div class="container">
+				<div class="row">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						 <span class="sr-only">Toggle navigation</span>
+						 <span class="icon-bar"></span>
+						 <span class="icon-bar"></span>
+						 <span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse">
+						<ul id="main-menu" class="nav navbar-nav">		
+							<li class=""><a href="/community">Community</a>
+								<ul>
+									<li class=""><a href="/community/features">Features & Amenities</a></li>
+									<li class=""><a href="/community/floorplans">Floor Plans</a></li>
+								</ul>
+							</li>
+							<li class=""><a href="/neighborhood">Neighborhood</a>
+								<ul>
+									<li class=""><a href="/neighborhood/vicinity-map">Vicinity Map</a></li>
+									<li class=""><a href="/neighborhood/local-attractions">Local Attractions</a></li>
+								</ul>
+							</li>
+							<li class=""><a href="/lifestyle">Lifestyle</a>
+								<ul>
+									<li class=""><a href="/lifestyle/dining">Dining</a></li>
+									<li class=""><a href="/lifestyle/health">Health & Wellness</a></li>
+									<li class=""><a href="/lifestyle/travel">Travel</a></li>
+									<li class=""><a href="/lifestyle/social">Social</a></li>
+									<li class=""><a href="/lifestyle/concierge">Concierge</a></li>
+								<ul>
+							</li>
+							<li class=""><a href="/gallery">Photo Gallery</a></li>
+							<li class=""><a href="/contact">Contact</a></li>
+							<li class=""><a href="/contact/map">Maps & Directions</a></li>	
 			<ul>
-			<li class=""><a href="/lifestyle/health/fitness">Fitness</a></li>
-			<li class=""><a href="/lifestyle/health/assisted-living">Assisted Living</a></li>
-			<li class=""><a href="/lifestyle/health/outpatient">Outpatient Therapy</a></li></ul>
-		<li class=""><a href="/lifestyle/travel">Travel</a>
-		<li class=""><a href="/lifestyle/social">Social</a>
-			<ul>
-			<li class=""><a href="http://www.thebellettini.com/uploads/TheBellettini_Calendar.pdf">Activity Calendar</a></li></ul>
-		<li class=""><a href="/lifestyle/concierge">Concierge</a></ul></li></li>
-	<li class=""><a href="/gallery">Photo Gallery</a></li></li>
-	<li class=""><a href="/contact">Contact</a>
-		<ul>
-		<li class=""><a href="/contact/map">Maps & Directions</a></ul></li>			</ul>
+					</ul>
 
+				 </div>
+				</div>
 			 </div>
-			</div>
-		 </div>
 		</div>
 	<div id="content">
 	 <div class="container">
