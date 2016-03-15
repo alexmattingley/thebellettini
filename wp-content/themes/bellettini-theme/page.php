@@ -13,12 +13,11 @@
 					case 'lifestyle':
 						wp_nav_menu( array( 'theme_location' => 'lifestyle' ) );
 						break;
-					case 'photo gallery':
-						wp_nav_menu( array( 'theme_location' => 'photo-gallery' ) );
-						break;
 					case 'contact':
 						wp_nav_menu( array( 'theme_location' => 'contact' ) );
 						break;
+					default:
+						echo "<a href='#'>" . get_the_title() . "</a>";
 				}
 			}
 
@@ -29,7 +28,7 @@
 					 <div class="container">
 						<div class="row">
 							<div id="image-responsive" class="visible-xs">
-							 	<img src="/uploads/neighborhood767.jpg"  alt="The Bellettini neighborhood">		 
+							 	<?php echo the_post_thumbnail( 'full' ); ?>		 
 							</div>
 							<div class="col-sm-offset-2 col-sm-10">
 							 	<h1>
@@ -49,7 +48,7 @@
 									<?php the_content(); ?>
 							</div>
 							<div class="col-sm-4 hidden-xs">
-								<img src="/uploads/neighborhood300.jpg"  alt="The Bellettini neighborhood">			
+								<img src="<?php echo get_field('sidebar_image'); ?>" alt="">		
 							</div>
 					    	<div id="contactwl" class="col-xs-12 col-sm-4">
 								<div class="well">
