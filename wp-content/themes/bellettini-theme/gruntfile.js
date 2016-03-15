@@ -20,7 +20,7 @@ module.exports = function(grunt) {
             }
         },
         imagemin: {
-            dynamic: {
+            library: {
                 files: [{
                     expand: true,
                     cwd: 'library/images/',
