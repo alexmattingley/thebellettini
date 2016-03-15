@@ -1,5 +1,30 @@
-<?php get_header(); ?>
-			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+<?php get_header();
+			if ( have_posts() ) : while ( have_posts() ) : the_post(); 
+			function get_sidebar_menu(){
+				$sidebar_menu = get_field('sidebar_menu');
+				$sidebar_menu = strtolower($sidebar_menu);
+				switch ($sidebar_menu){
+					case 'community':
+					 	wp_nav_menu( array( 'theme_location' => 'community' ) );
+						break;
+					case 'neighborhood':
+						wp_nav_menu( array( 'theme_location' => 'neighborhood' ) );
+						break;
+					case 'lifestyle':
+						wp_nav_menu( array( 'theme_location' => 'lifestyle' ) );
+						break;
+					case 'photo gallery':
+						wp_nav_menu( array( 'theme_location' => 'photo-gallery' ) );
+						break;
+					case 'contact':
+						wp_nav_menu( array( 'theme_location' => 'contact' ) );
+						break;
+				}
+			}
+
+			?>
+
+
 				<div id="content">
 					 <div class="container">
 						<div class="row">
@@ -18,7 +43,7 @@
 							 	</h1>
 							</div>
 							<div class="col-sm-2 hidden-xs" id="left-nav" style="clear:both;">		
-								<h2><?php echo 'special navs will go here'; ?></h2>
+								<?php get_sidebar_menu(); ?>
 							</div>
 							 <div id="content-text" class="col-sm-6">
 									<?php the_content(); ?>

@@ -216,11 +216,22 @@ function bones_theme_support() {
 	// registering wp3+ menus
 	register_nav_menus(
 		array(
-			'main-nav' => __( 'The Main Menu', 'bonestheme' ),   // main nav in header
-			'left-footer-links' => __( 'Left Column Footer Links', 'bonestheme' ), // left col Nav in footer
-			'middle-footer-links' => __( 'Middle Column Footer Links', 'bonestheme' ), //middle col Nav in footer
-			'right-footer-links' => __( 'Right Column Footer Links', 'bonestheme' ), //right col Nav in footer
-			'top-links' => __('Top Links', 'bonestheme')
+			//navigation in the headers
+			'top-links' => __('Top Links', 'bonestheme'),
+			'main-nav' => __( 'The Main Menu', 'bonestheme' ),
+			
+			//navigation in the footers 
+			'left-footer-links' => __( 'Left Column Footer Links', 'bonestheme' ),
+			'middle-footer-links' => __( 'Middle Column Footer Links', 'bonestheme' ),
+			'right-footer-links' => __( 'Right Column Footer Links', 'bonestheme' ),
+
+			//Sidebar navigations (remember these are triggered in the admin area of each page)
+			'community' => __('Community Sidebar', 'bonestheme'),
+			'neighborhood' => __('Neighborhood Sidebar', 'bonestheme'),
+			'lifestyle' => __('Lifestyle Sidebar', 'bonestheme'),
+			'photo-gallery' => __('Photo Gallery Sidebar', 'bonestheme'),
+			'contact' => __('Contact Sidebar', 'bonestheme')
+
 		)
 	);
 
