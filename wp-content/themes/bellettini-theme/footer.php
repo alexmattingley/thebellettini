@@ -40,7 +40,7 @@
 								<p>
 								 &copy; Copyright 2016, The Bellettini. All Rights Reserved.<br>
 								 Website content by <a href="http://www.staffordcreative.com" target="_blank">Stafford Creative</a><br>
-								 Website development by <a href="http://www.gagedesign.com" target="_blank">Gage Design</a>
+								 Website development by <a href="http://sessionwise.com/" target="_blank">Session Wise</a>
 								</p>
 							<div id="social_connect" style="font-size:12px;">Connect with Us:</div>
 							<div id="social_media" style="font-size:28px;"><a href="https://twitter.com/WESTlivingLLC" target="_blank"><i class="fa fa-twitter-square"></i></a>&nbsp;<a href="https://plus.google.com/111680785284740530618/videos" target="_blank"><i class="fa fa-google-plus-square"></i></a>&nbsp;<a href="https://www.youtube.com/channel/UCWWbscxwc_Z3KpL4gN_D5Iw" target="_blank"><i class="fa fa-youtube-square"></i></a>&nbsp;<a href="https://www.linkedin.com/company/west-living?trk=prof-following-company-logo" target="_blank"><i class="fa fa-linkedin-square"></i></a>&nbsp;<a href="https://www.facebook.com/west.living.3?fref=ts" target="_blank"><i class="fa fa-facebook-square"></i></a></div>

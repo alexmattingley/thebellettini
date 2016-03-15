@@ -190,7 +190,6 @@ function bones_register_sidebars() {
 	*/
 } // don't remove this bracket!
 
-
 /************* COMMENT LAYOUT *********************/
 
 // Comment Layout

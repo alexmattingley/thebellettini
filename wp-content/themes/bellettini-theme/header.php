@@ -41,6 +41,7 @@
 
 		//Page variables:
 		$images_folder = "/wp-content/themes/bellettini-theme/library/images";
+		$phone_number = "425-450-0800";
 		?>
 
 	</head>
@@ -53,20 +54,21 @@
 		</div>
 		<div id="header">
 			<div class="container">
-				<a href="/"><img id="logo" class="full-width" src="<?php echo $images_folder ?>/logo.jpg" /></a>
-				<div id="top-links">
-			 	<span class="hidden-xs">
-					<span class="top-links">
-						 <a href="/about">About Us</a>
-						 <a href="http://www.westliving.net/careers/" target="_blank">Careers</a>
-					</span>
-					<span id="font-size">
-						<img class="plus" src="<?php echo $images_folder ?>/plus.png" />
-						<img class="reset" src="<?php echo $images_folder ?>/aa.png" />
-						<img class="minus" src="<?php echo $images_folder ?>/minus.png" />
-					</span>
-			 	</span>
-				<span id="phone">Call 425-450-0800</span>
+				<a class="col-sm-5" href="/">
+					<img id="logo" class="full-width" src="<?php echo $images_folder ?>/logo.jpg" />
+				</a>
+				<div class="col-sm-7 pull-right" id="top-links">
+					<span class="pull-right" id="phone">Call <?php echo $phone_number; ?></span>
+				 	<div class="hidden-xs pull-right">
+						<div class="top-links">
+							 <?php wp_nav_menu( array( 'theme_location' => 'top-links' ) ); ?>
+						</div>
+						<div id="font-size">
+							<img class="plus" src="<?php echo $images_folder ?>/plus.png" />
+							<img class="reset" src="<?php echo $images_folder ?>/aa.png" />
+							<img class="minus" src="<?php echo $images_folder ?>/minus.png" />
+						</div>
+				 	</div>
 				</div>
 			</div><!--End Container-->
 		</div><!--end header-->

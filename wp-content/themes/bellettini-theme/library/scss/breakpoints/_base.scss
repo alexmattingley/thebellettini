@@ -215,7 +215,15 @@ img.full-width {
 #top-links {
  margin: 25px 0 0 0;
  font-size: 1.2em;
- float: right;
+
+}
+
+#menu-top-links {
+	margin-top: 0;
+}
+
+#menu-top-links li {
+	display: inline-block;
 }
 
 #top-links a {
@@ -226,6 +234,10 @@ img.full-width {
  color: black;
 }
 
+#top-links .hidden-xs {
+	margin-right: 10px;
+}
+
 #top-links span.glyphicon {
  font-size: .6em;
  vertical-align: baseline;
@@ -234,6 +246,7 @@ img.full-width {
 #top-links .top-links {
  font-size: .9em;
  font-weight: bold;
+ display: inline-block;
 }
 
 #top-links .top-links a {
@@ -242,6 +255,7 @@ padding:0px 5px;
 
 #font-size {
  cursor: default;
+ display: inline-block;
 }
 
 #font-size img {
