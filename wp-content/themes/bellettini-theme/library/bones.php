@@ -143,6 +143,8 @@ function bones_scripts_and_styles() {
 		//adding scripts file in the footer
 		wp_register_script( 'main-js', get_stylesheet_directory_uri() . '/library/js/build/production.min.js', array( 'jquery' ), '', true );
 
+		wp_register_script( 'contact-form-script', 'http://www.westliving.net/wp-content/themes/duena/js/jquery.wl-formbuilder.js?ver=1.1', array( 'jquery' ), '', true );
+
 		// enqueue styles and scripts
 		wp_enqueue_style( 'bootstrap-css' );
 		wp_enqueue_style( 'font-awesome' );
@@ -159,6 +161,7 @@ function bones_scripts_and_styles() {
 		wp_enqueue_script( 'jquery' );
 		wp_enqueue_script('bootstrap-js');
 		wp_enqueue_script( 'main-js' );
+		wp_enqueue_script( 'contact-form-script' );
 
 	}
 }

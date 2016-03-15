@@ -38,7 +38,6 @@
 				</div>
 			<?php endwhile; else: ?>
 			<?php endif; ?>	
-<script type='text/javascript' src='http://www.westliving.net/wp-content/themes/duena/js/jquery.wl-formbuilder.js?ver=1.1'></script>
 				<script>
 				jQuery(document).ready(function($){
 					$('body').wl_formBuilder({
