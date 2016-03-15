@@ -23,22 +23,19 @@
 							 <div id="content-text" class="col-sm-6">
 									<?php the_content(); ?>
 							</div>
-				      <div id="contactwl" class="visible-xs">
-				
-				      
-				      </div>
-						 <div class="col-sm-4 hidden-xs">
-							<img src="/uploads/neighborhood300.jpg"  alt="The Bellettini neighborhood">			
-				<div class="well">
-				  <h2>Get More Information</h2>
-				  <div class="instrux">Please complete the form below.<br />Mandatory fields marked *</div>
-				  <div class="formbuilder-container"></div>
-				</div>
-						 </div>
-
+							<div class="col-sm-4 hidden-xs">
+								<img src="/uploads/neighborhood300.jpg"  alt="The Bellettini neighborhood">			
+							</div>
+					    	<div id="contactwl" class="col-xs-12 col-sm-4">
+								<div class="well">
+									<h2>Get More Information</h2>
+									<div class="instrux">Please complete the form below.<br />Mandatory fields marked *</div>
+									<div class="formbuilder-container"></div>
+								</div>
+					    	</div>
 						</div>
-					 </div>
-		</div>
+					</div>
+				</div>
 			<?php endwhile; else: ?>
 			<?php endif; ?>	
 <script type='text/javascript' src='http://www.westliving.net/wp-content/themes/duena/js/jquery.wl-formbuilder.js?ver=1.1'></script>
