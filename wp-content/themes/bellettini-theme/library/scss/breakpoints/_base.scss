@@ -126,9 +126,9 @@ img.full-width {
 
 
 
-
-
-
+/******
+Header Navigation
+*******/
 
 #navigation {
  background-color: #ba5915;
@@ -169,6 +169,10 @@ img.full-width {
  border-bottom-left-radius: 6px;
  border-bottom-right-radius: 6px;
  z-index: 10;
+}
+
+#menu-main-menu li.current-menu-item {
+	background: #8b0304;
 }
 
 #menu-main-menu > li > ul {
@@ -289,17 +293,18 @@ img.full-width {
 		height: 60px;
 	}
 
-	#menu-main-menu .sub-menu {
-		display: none;
-	}
-
 	#menu-main-menu > li {
 		float: left;
 	}
+
+	#menu-main-menu > li > ul.sub-menu {
+		display: none;
+	}
+
 	#menu-main-menu > li:hover > ul.sub-menu {
 		position: absolute;
 		display: block;
-		width: auto;
+		width: 200px;
 	}
 
 }
