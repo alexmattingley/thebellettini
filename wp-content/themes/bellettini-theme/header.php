@@ -84,7 +84,11 @@
 						</button>
 					</div> <!--end navbar-header-->
 					<div class="collapse navbar-collapse">
-						<ul id="main-menu" class="nav navbar-nav">		
+						<?php wp_nav_menu( array( 'theme_location' => 'main-nav' ) ); ?>
+						
+
+
+						<!-- <ul id="main-menu" class="nav navbar-nav">		
 							<li class=""><a href="/community">Community</a>
 								<ul>
 									<li class=""><a href="/community/features">Features & Amenities</a></li>
@@ -109,7 +113,7 @@
 							<li class=""><a href="/gallery">Photo Gallery</a></li>
 							<li class=""><a href="/contact">Contact</a></li>
 							<li class=""><a href="/contact/map">Maps & Directions</a></li>	
-						</ul><!--End navbar-nav-->
+						</ul>End navbar-nav-->
 				 	</div><!--End navbar-collapse-->
 				</div><!--end row-->
 			</div><!--End container-->
