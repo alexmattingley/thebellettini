@@ -50,7 +50,7 @@
 							<div class="col-sm-4 hidden-xs">
 								<img src="<?php echo get_field('sidebar_image'); ?>" alt="">		
 							</div>
-					    	<div id="contactwl" class="col-xs-12 col-sm-4">
+					    	<div id="contactwl" class="col-xs-12 col-sm-4 pull-right">
 								<div class="well">
 									<h2>Get More Information</h2>
 									<div class="instrux">Please complete the form below.<br />Mandatory fields marked *</div>

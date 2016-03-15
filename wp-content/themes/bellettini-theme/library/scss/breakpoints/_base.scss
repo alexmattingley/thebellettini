@@ -278,10 +278,6 @@ Header Navigation
 	padding-left: 40px;
  }
 
- #left-nav {
-	font-size: .85em;
- }
-
 @media (min-width: 991px){
 
 	.navbar-header {
@@ -383,6 +379,16 @@ padding:0px 5px;
  background-color: white;
 }
 
+#content-text ul {
+	padding-left: 30px;
+}
+
+
+#content-text ul li {
+	list-style: disc;
+	list-style-position: outside;
+}
+
 #content > .container > .row {
  padding-top: 30px;
  padding-bottom: 30px;
@@ -404,17 +410,14 @@ padding:0px 5px;
  display: block;
 }
 
-#left-nav > h2 {
+#left-nav li.menu-item-has-children > a{
  margin: -3px 0 4px 0;
  font-size: 1em;
  text-transform: uppercase;
 }
 
-#left-nav {
- line-height: 1.5em;
-}
 
-#left-nav > h2 > a {
+#left-nav a {
  font-weight: bold;
  color: #820900;
 }
@@ -424,19 +427,16 @@ padding:0px 5px;
  list-style: none;
 }
 
-#left-nav ul ul {
- padding-left: 10px;
+#left-nav div ul li ul {
+ padding-left: 0x;
+ margin-top: 5px;
 }
 
 #left-nav > ul > li > a {
  font-weight: bold;
 }
 
-#left-nav li > a {
- color: #b25a03;
-}
-
-#left-nav .active > a {
+#left-nav .current-menu-item > a {
  color: #6a6a6a;
 }
 
@@ -869,8 +869,6 @@ font-weight:bold !important;
 
 #contactwl .well {
    margin-top: 18px;
-   margin-left: 10px;
-   margin-right: 12px;  
 }
 
 .well h2 {
