@@ -47,11 +47,6 @@
 	</head>
 
 	<body>
-		<div id="bars">
-			<div class="orange"></div>
-			<div class="green"></div>
-			<div class="red"></div>
-		</div>
 		<div id="header">
 			<div class="container">
 				<a class="col-sm-5" href="/">
@@ -76,7 +71,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 							 <span class="sr-only">Toggle navigation</span>
 							 <span class="icon-bar"></span>
 							 <span class="icon-bar"></span>

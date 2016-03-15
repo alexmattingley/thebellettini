@@ -30,6 +30,11 @@
 							<div id="image-responsive" class="visible-xs">
 							 	<?php echo the_post_thumbnail( 'full' ); ?>		 
 							</div>
+							<div id="bars" class="visible-xs">
+								<div class="orange"></div>
+								<div class="green"></div>
+								<div class="red"></div>
+							</div>
 							<div class="col-sm-offset-2 col-sm-10">
 							 	<h1>
 							 	<?php 
@@ -58,6 +63,11 @@
 								</div>
 					    	</div>
 						</div>
+					</div>
+					<div id="bars" class="hidden-xs">
+						<div class="orange"></div>
+						<div class="green"></div>
+						<div class="red"></div>
 					</div>
 				</div>
 			<?php endwhile; else: ?>

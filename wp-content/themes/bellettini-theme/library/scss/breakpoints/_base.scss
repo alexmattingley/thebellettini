@@ -93,11 +93,7 @@ img.full-width {
 #bars {
  width: 100%;
  height: 40px;
- position: absolute;
- z-index: 100;
- top: 0;
- pointer-events: none;
- display: none;
+ display: block;
 }
 
 #bars > div {
