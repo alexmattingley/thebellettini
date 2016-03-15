@@ -51,16 +51,26 @@ function loadGravatars() {
 	}
 } // end function
 
-
 /*
  * Put all your regular jQuery in here.
 */
 jQuery(document).ready(function($) {
 
-  /*
-   * Let's fire off the gravatar function
-   * You can remove this if you don't need it
-  */
+  function create_form(){
+    console.log('create_form called');
+    $('body').wl_formBuilder({
+      formTitle: 'Contact Us',
+      fields: {
+        1: 'name',
+        2: 'email',
+        3: 'phone',
+        4: 'message',
+      },
+      submitText: 'Submit',
+      thankyouPage: '/contact/thank-you'
+    });
+  }
+  create_form();
   loadGravatars();
   console.log('hello!');
 

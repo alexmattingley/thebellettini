@@ -38,19 +38,4 @@
 				</div>
 			<?php endwhile; else: ?>
 			<?php endif; ?>	
-				<script>
-				jQuery(document).ready(function($){
-					$('body').wl_formBuilder({
-						formTitle: 'Contact Us',
-						fields: {
-							1: 'name',
-							2: 'email',
-							3: 'phone',
-							4: 'message',
-						},
-						submitText: 'Submit',
-						thankyouPage: '/contact/thank-you'
-					});
-				});
-				</script>
 <?php get_footer(); ?>

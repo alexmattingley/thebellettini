@@ -32,22 +32,6 @@
 					</div>
 					<div id="lunchTour" class="col-md-4">
 				      <a href="/contact"><img class="" src="<?php echo $images_folder ?>/lunch-tour.jpg" /></a><br/>
-						<script type='text/javascript' src='http://www.westliving.net/wp-content/themes/duena/js/jquery.wl-formbuilder.js?ver=1.1'></script>
-						<script>
-						jQuery(document).ready(function($){
-							$('body').wl_formBuilder({
-								formTitle: 'Contact Us',
-								fields: {
-									1: 'name',
-									2: 'email',
-									3: 'phone',
-									4: 'message',
-								},
-								submitText: 'Submit',
-								thankyouPage: '/contact/thank-you'
-							});
-						});
-						</script>
 					<div class="well">
 					  <h2>Get More Information</h2>
 					  <div class="instrux">Please complete the form below.<br />Mandatory fields marked *</div>
