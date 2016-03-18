@@ -257,4 +257,5 @@ function demo($mimes) {
 }
 add_filter('upload_mimes','demo');
 
+
 /* DON'T DELETE THIS CLOSING TAG */ ?>

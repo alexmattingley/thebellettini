@@ -49,18 +49,37 @@ function loadGravatars() {
 
 
 function create_form(){
-  console.log('create_form called');
-  jQuery('body').wl_formBuilder({
-    formTitle: 'Contact Us',
-    fields: {
-      1: 'name',
-      2: 'email',
-      3: 'phone',
-      4: 'message',
-    },
-    submitText: 'Submit',
-    thankyouPage: '/contact/thank-you'
-  });
+  if(jQuery('.page-template-page-contact').length != 0){
+    jQuery(document).ready(function($){
+       jQuery('body').wl_formBuilder({
+          formTitle: 'Contact Us',
+          fields: {
+             1: 'name',
+             2: 'email',
+             3: 'phone',
+             4: 'address',
+             5: 'city',
+             6: 'state',
+             7: 'zip',
+             8: 'message'
+          },
+          submitText: 'Submit',
+          thankyouPage: 'contact/thank-you'
+       });
+    });
+  }else {
+    jQuery('body').wl_formBuilder({
+      formTitle: 'Contact Us',
+      fields: {
+        1: 'name',
+        2: 'email',
+        3: 'phone',
+        4: 'message',
+      },
+      submitText: 'Submit',
+      thankyouPage: '/contact/thank-you'
+    });
+  }
 }
 
 

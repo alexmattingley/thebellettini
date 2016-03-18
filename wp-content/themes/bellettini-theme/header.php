@@ -46,7 +46,7 @@
 
 	</head>
 
-	<body>
+	<body <?php body_class( $class ); ?>
 		<div id="header">
 			<div class="container">
 				<a class="col-sm-5" href="/">
