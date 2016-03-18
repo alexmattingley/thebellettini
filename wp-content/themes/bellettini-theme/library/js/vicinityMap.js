@@ -14,7 +14,6 @@ var map = null;
  *
  */
 function initialize(vicinities, numVicinity) {
-//alert("initialize");
 	//var mapDiv = document.getElementById(mapDiv)
 
 	var mapDiv = document.getElementById(vicinityMapDiv);
@@ -32,7 +31,7 @@ function initialize(vicinities, numVicinity) {
 		mapTypeId: google.maps.MapTypeId.ROADMAP
 	}
 
-//alert(vicinities[0]['lat'] + ", " + vicinities[0]['lng']);
+console.log(vicinities[0]['lat'] + ", " + vicinities[0]['lng']);
 
 	map = new google.maps.Map(mapDiv, myOptions);
 

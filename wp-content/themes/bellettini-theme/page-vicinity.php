@@ -57,6 +57,9 @@ get_header();
 							</div>
 							 <div id="content-text" class="col-sm-6">
 									<?php the_content(); ?>
+									<div id="map"></div>
+										<div id="vicinity-list"></div>
+									 </div>
 							</div>
 							<div class="col-sm-4 hidden-xs">
 								<img src="<?php echo get_field('sidebar_image'); ?>" alt="">		
