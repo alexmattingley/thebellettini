@@ -32,7 +32,7 @@ get_header();
 
 				<div id="content">
 					 <div class="container">
-						<div class="row">
+						<div>
 							<div id="image-responsive" class="visible-xs">
 							 	<?php echo the_post_thumbnail( 'full' ); ?>		 
 							</div>
@@ -56,10 +56,10 @@ get_header();
 								<?php get_sidebar_menu(); ?>
 							</div>
 							 <div id="content-text" class="col-sm-6">
-									<?php the_content(); ?>
-									<div id="map"></div>
-										<div id="vicinity-list"></div>
-									 </div>
+								<?php the_content(); ?>
+								<div id="map"></div>
+									<div id="vicinity-list"></div>
+								 </div>
 							</div>
 							<div class="col-sm-4 hidden-xs">
 								<img src="<?php echo get_field('sidebar_image'); ?>" alt="">		

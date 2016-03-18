@@ -252,7 +252,6 @@ jQuery(document).ready(function($) {
 
   create_form();
   loadGravatars();
-  console.log('hello!');
 
 
 }); /* end of as page load scripts */

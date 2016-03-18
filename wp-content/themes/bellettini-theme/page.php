@@ -25,7 +25,7 @@
 
 
 				<div id="content">
-					 <div class="container">
+					<div class="container">
 						<div class="row">
 							<div id="image-responsive" class="visible-xs">
 							 	<?php echo the_post_thumbnail( 'full' ); ?>		 
@@ -64,11 +64,11 @@
 					    	</div>
 						</div>
 					</div>
-					<div id="bars" class="hidden-xs">
-						<div class="orange"></div>
-						<div class="green"></div>
-						<div class="red"></div>
-					</div>
+				</div>
+				<div id="bars" class="hidden-xs">
+					<div class="orange"></div>
+					<div class="green"></div>
+					<div class="red"></div>
 				</div>
 			<?php endwhile; else: ?>
 			<?php endif; ?>	

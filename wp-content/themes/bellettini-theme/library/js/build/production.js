@@ -256,7 +256,6 @@ jQuery(document).ready(function($) {
 
   create_form();
   loadGravatars();
-  console.log('hello!');
 
 
 }); /* end of as page load scripts */
@@ -281,12 +280,8 @@ var map = null;
  *
  */
 function initialize(vicinities, numVicinity) {
-	//var mapDiv = document.getElementById(mapDiv)
 
 	var mapDiv = document.getElementById(vicinityMapDiv);
-
-// Creating a LatLngBounds object
-//var bounds = new google.maps.LatLngBounds();
 
 	// create the map
 	var myOptions = {
@@ -297,8 +292,6 @@ function initialize(vicinities, numVicinity) {
 		navigationControl: true,
 		mapTypeId: google.maps.MapTypeId.ROADMAP
 	}
-
-console.log(vicinities[0]['lat'] + ", " + vicinities[0]['lng']);
 
 	map = new google.maps.Map(mapDiv, myOptions);
 
