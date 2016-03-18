@@ -410,6 +410,11 @@ padding:0px 5px;
  display: block;
 }
 
+#left-nav {
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
 #left-nav .menu li:first-child > a {
 	text-transform: uppercase;
 }
@@ -421,8 +426,8 @@ padding:0px 5px;
 
 
 #left-nav a {
- font-weight: bold;
- color: #820900;
+	font-weight: bold;
+	color: #820900;
 }
 
 #left-nav ul {

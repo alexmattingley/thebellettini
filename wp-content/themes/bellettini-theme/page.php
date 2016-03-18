@@ -27,15 +27,15 @@
 				<div id="content">
 					<div class="container">
 						<div class="row">
-							<div id="image-responsive" class="visible-xs">
+							<div id="image-responsive" class="visible-xs visible-sm">
 							 	<?php echo the_post_thumbnail( 'full' ); ?>		 
 							</div>
-							<div id="bars" class="visible-xs">
+							<div id="bars" class="visible-xs visible-sm">
 								<div class="orange"></div>
 								<div class="green"></div>
 								<div class="red"></div>
 							</div>
-							<div class="col-sm-offset-2 col-sm-10">
+							<div class="col-md-offset-2 col-md-10">
 							 	<h1>
 							 	<?php 
 							 		if(get_field('page_header')){
@@ -46,16 +46,16 @@
 							 	?>
 							 	</h1>
 							</div>
-							<div class="col-sm-2 hidden-xs" id="left-nav" style="clear:both;">		
+							<div class="col-md-2 hidden-xs hidden-sm" id="left-nav" style="clear:both;">		
 								<?php get_sidebar_menu(); ?>
 							</div>
-							 <div id="content-text" class="col-sm-6">
+							 <div id="content-text" class="col-md-6">
 									<?php the_content(); ?>
 							</div>
-							<div class="col-sm-4 hidden-xs">
+							<div class="col-md-4 hidden-xs hidden-sm">
 								<img src="<?php echo get_field('sidebar_image'); ?>" alt="">		
 							</div>
-					    	<div id="contactwl" class="col-xs-12 col-sm-4 pull-right">
+					    	<div id="contactwl" class="col-xs-12 col-md-4 pull-right">
 								<div class="well">
 									<h2>Get More Information</h2>
 									<div class="instrux">Please complete the form below.<br />Mandatory fields marked *</div>
@@ -65,7 +65,7 @@
 						</div>
 					</div>
 				</div>
-				<div id="bars" class="hidden-xs">
+				<div id="bars" class="hidden-xs hidden-sm">
 					<div class="orange"></div>
 					<div class="green"></div>
 					<div class="red"></div>
