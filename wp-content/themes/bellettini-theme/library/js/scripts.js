@@ -47,14 +47,10 @@ function loadGravatars() {
 	}
 } // end function
 
-/*
- * Put all your regular jQuery in here.
-*/
-jQuery(document).ready(function($) {
 
-  function create_form(){
+ function create_form(){
     console.log('create_form called');
-    $('body').wl_formBuilder({
+    jQuery('body').wl_formBuilder({
       formTitle: 'Contact Us',
       fields: {
         1: 'name',
@@ -66,6 +62,12 @@ jQuery(document).ready(function($) {
       thankyouPage: '/contact/thank-you'
     });
   }
+
+/*
+ * Put all your regular jQuery in here.
+*/
+jQuery(document).ready(function($) {
+
   create_form();
   loadGravatars();
   console.log('hello!');
