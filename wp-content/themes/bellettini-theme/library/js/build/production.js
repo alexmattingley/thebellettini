@@ -249,6 +249,13 @@ function create_vicinty_map(){
    initialize(vicinities, numVicinity);
 }
 
+
+function photo_gallery_class(){
+  console.log('calling');
+  jQuery('.gallery-thumbs img').removeClass();
+  jQuery('.gallery-thumbs img').addClass('col-xs-4 col-md-4');
+}
+
 /*
  * Put all your regular jQuery in here.
 */
@@ -256,6 +263,7 @@ jQuery(document).ready(function($) {
 
   create_form();
   loadGravatars();
+  photo_gallery_class();
 
 
 }); /* end of as page load scripts */
