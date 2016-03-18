@@ -261,7 +261,7 @@ Header Navigation
 #menu-main-menu ul {
 	opacity: 1;
 	position: static;
-	padding: 0;
+	padding: 10px 0;
 	width: 100%;
  }
 
@@ -288,7 +288,7 @@ Header Navigation
 		float: left;
 	}
 
-	#menu-main-menu > li > ul.sub-menu {
+	#menu-main-menu > li ul.sub-menu,  {
 		display: none;
 	}
 
@@ -296,6 +296,13 @@ Header Navigation
 		position: absolute;
 		display: block;
 		width: 200px;
+	}
+
+	#menu-main-menu > li ul li:hover ul.sub-menu {
+		position: absolute;
+		display: block;
+		left: 200px;
+
 	}
 
 }
@@ -389,10 +396,6 @@ padding:0px 5px;
  padding-bottom: 30px;
 }
 
-#content > .container > #banner + .row {
-
-}
-
 .not-front h1 {
  margin-bottom: 0;
  padding-bottom: 20px;
@@ -406,10 +409,13 @@ padding:0px 5px;
  display: block;
 }
 
+#left-nav .menu li:first-child > a {
+	text-transform: uppercase;
+}
+
 #left-nav li.menu-item-has-children > a{
  margin: -3px 0 4px 0;
  font-size: 1em;
- text-transform: uppercase;
 }
 
 
@@ -424,7 +430,7 @@ padding:0px 5px;
 }
 
 #left-nav div ul li ul {
- padding-left: 0x;
+ padding-left: 10px;
  margin-top: 5px;
 }
 
