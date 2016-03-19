@@ -53,7 +53,12 @@
 									<?php the_content(); ?>
 							</div>
 							<div class="col-md-4 hidden-xs hidden-sm">
-								<img src="<?php echo get_field('sidebar_image'); ?>" alt="">		
+								<?php 
+									if(get_field('address_sidebar')){
+										echo get_field('address_sidebar');
+									}else { ?>
+										<img src="<?php echo get_field('sidebar_image'); ?>" alt="">
+									<?php } ?>		
 							</div>
 					    	<div id="contactwl" class="col-xs-12 col-md-4 pull-right">
 								<div class="well">
