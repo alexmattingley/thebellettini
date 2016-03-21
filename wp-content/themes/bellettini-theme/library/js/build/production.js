@@ -52,7 +52,9 @@ function loadGravatars() {
 } // end function
 
 
+//Function create_form is responsible for creating various contact forms throughout the site.
 function create_form(){
+  //create contact form for contact page if we are on contact page
   if(jQuery('.page-template-page-contact').length != 0){
     jQuery(document).ready(function($){
        jQuery('body').wl_formBuilder({
@@ -72,6 +74,7 @@ function create_form(){
        });
     });
   }else {
+    //create sidebare contact page
     jQuery('body').wl_formBuilder({
       formTitle: 'Contact Us',
       fields: {
@@ -269,14 +272,43 @@ function create_vicinty_map(){
 }
 
 
+//Remove any clases that we dont need from that photo gallery images, and then add in relevant classes.
 function photo_gallery_class(){
-  console.log('calling');
   jQuery('.gallery-thumbs img').removeClass();
   jQuery('.gallery-thumbs img').addClass('col-xs-4 col-md-4');
 }
 
+function increase_font_size(){
+  var content_font_size = jQuery('#content').css('font-size').replace('px', '');
+  content_font_size = parseInt(content_font_size);
+  if(content_font_size < 21){
+    var new_content_size = parseInt(content_font_size + 2);
+    new_content_size = new_content_size + 'px';
+    jQuery('#content').css('font-size', new_content_size);
+  }
+}
+
+function decrease_font_size(){
+  var content_font_size = jQuery('#content').css('font-size').replace('px', '');
+  content_font_size = parseInt(content_font_size);
+  if(content_font_size > 11){
+    var new_content_size = parseInt(content_font_size - 2);
+    new_content_size = new_content_size + 'px';
+    jQuery('#content').css('font-size', new_content_size);
+  }
+
+}
+
+jQuery('img.plus').on('click', function(){
+  increase_font_size();
+});
+
+jQuery('img.minus').on('click',function(){
+  decrease_font_size();
+});
+
 /*
- * Put all your regular jQuery in here.
+ * document ready
 */
 jQuery(document).ready(function($) {
 
@@ -285,7 +317,11 @@ jQuery(document).ready(function($) {
   photo_gallery_class();
 
 
-}); /* end of as page load scripts */
+});
+
+/*
+ * window.load
+*/
 
 jQuery(window).load(function($){
   create_vicinty_map();
