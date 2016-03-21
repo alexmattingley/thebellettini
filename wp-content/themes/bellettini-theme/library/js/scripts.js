@@ -295,12 +295,20 @@ function decrease_font_size(){
 
 }
 
+function reset_font_size(){
+   jQuery('#content').css('font-size', '14px');
+}
+
 jQuery('img.plus').on('click', function(){
   increase_font_size();
 });
 
 jQuery('img.minus').on('click',function(){
   decrease_font_size();
+});
+
+jQuery('img.reset').on('click', function(){
+  reset_font_size()
 });
 
 /*
