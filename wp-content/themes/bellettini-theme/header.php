@@ -46,14 +46,14 @@
 
 	</head>
 
-	<body>
+	<body <?php body_class( $class ); ?>
 		<div id="header">
 			<div class="container">
 				<a class="col-sm-5" href="/">
 					<img id="logo" class="full-width" src="<?php echo $images_folder ?>/logo.jpg" />
 				</a>
 				<div class="col-sm-7 pull-right" id="top-links">
-					<span class="pull-right" id="phone">Call <?php echo $phone_number; ?></span>
+					<span class="pull-right" id="phone"><a href="tel:425-450-0800">Call <?php echo $phone_number; ?></a></span>
 				 	<div class="hidden-xs pull-right">
 						<div class="top-links">
 							 <?php wp_nav_menu( array( 'theme_location' => 'top-links' ) ); ?>
@@ -80,35 +80,6 @@
 					</div> <!--end navbar-header-->
 					<div class="collapse navbar-collapse">
 						<?php wp_nav_menu( array( 'theme_location' => 'main-nav' ) ); ?>
-						
-
-
-						<!-- <ul id="main-menu" class="nav navbar-nav">		
-							<li class=""><a href="/community">Community</a>
-								<ul>
-									<li class=""><a href="/community/features">Features & Amenities</a></li>
-									<li class=""><a href="/community/floorplans">Floor Plans</a></li>
-								</ul>
-							</li>
-							<li class=""><a href="/neighborhood">Neighborhood</a>
-								<ul>
-									<li class=""><a href="/neighborhood/vicinity-map">Vicinity Map</a></li>
-									<li class=""><a href="/neighborhood/local-attractions">Local Attractions</a></li>
-								</ul>
-							</li>
-							<li class=""><a href="/lifestyle">Lifestyle</a>
-								<ul>
-									<li class=""><a href="/lifestyle/dining">Dining</a></li>
-									<li class=""><a href="/lifestyle/health">Health & Wellness</a></li>
-									<li class=""><a href="/lifestyle/travel">Travel</a></li>
-									<li class=""><a href="/lifestyle/social">Social</a></li>
-									<li class=""><a href="/lifestyle/concierge">Concierge</a></li>
-								</ul>
-							</li>
-							<li class=""><a href="/gallery">Photo Gallery</a></li>
-							<li class=""><a href="/contact">Contact</a></li>
-							<li class=""><a href="/contact/map">Maps & Directions</a></li>	
-						</ul>End navbar-nav-->
 				 	</div><!--End navbar-collapse-->
 				</div><!--end row-->
 			</div><!--End container-->

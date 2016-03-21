@@ -15,7 +15,7 @@
 					<div class="green"></div>
 					<div class="red"></div>
 				</div>
-				<div class="row" id="home_video_panel">
+				<div id="home_video_panel">
 				    <div id="home_video" class="col-md-5">
 				        <iframe width="100%" height="250px" src="<?php echo get_field('post_iframe_link') ?>" frameborder="0" allowfullscreen></iframe>
 				    </div>

@@ -243,4 +243,19 @@ function bones_fonts() {
 
 add_action('wp_enqueue_scripts', 'bones_fonts');
 
+/***********
+Snippet for uploading flash
+*/
+
+function demo($mimes) {
+  if ( function_exists( 'current_user_can' ) )
+    $unfiltered = $user ? user_can( $user, 'unfiltered_html' ) : current_user_can( 'unfiltered_html' );
+  if ( !empty( $unfiltered ) ) {
+    $mimes['swf'] = 'application/x-shockwave-flash';
+  }
+  return $mimes;
+}
+add_filter('upload_mimes','demo');
+
+
 /* DON'T DELETE THIS CLOSING TAG */ ?>

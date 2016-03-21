@@ -1,4 +1,10 @@
-<?php get_header();
+<?php
+/*
+ Template Name: Contact Page
+ *
+*/
+
+get_header();
 			if ( have_posts() ) : while ( have_posts() ) : the_post(); 
 			function get_sidebar_menu(){
 				$sidebar_menu = get_field('sidebar_menu');
@@ -25,8 +31,8 @@
 
 
 				<div id="content">
-					<div class="container">
-						<div class="row">
+					 <div class="container">
+						<div>
 							<div id="image-responsive" class="visible-xs visible-sm">
 							 	<?php echo the_post_thumbnail( 'full' ); ?>		 
 							</div>
@@ -50,31 +56,23 @@
 								<?php get_sidebar_menu(); ?>
 							</div>
 							 <div id="content-text" class="col-md-6">
-									<?php the_content(); ?>
-							</div>
-							<div class="col-md-4 hidden-xs hidden-sm">
-								<?php 
-									if(get_field('address_sidebar')){
-										echo get_field('address_sidebar');
-									}else { ?>
-										<img src="<?php echo get_field('sidebar_image'); ?>" alt="">
-									<?php } ?>		
-							</div>
-					    	<div id="contactwl" class="col-xs-12 col-md-4 pull-right">
+								<?php the_content(); ?>
 								<div class="well">
-									<h2>Get More Information</h2>
-									<div class="instrux">Please complete the form below.<br />Mandatory fields marked *</div>
 									<div class="formbuilder-container"></div>
 								</div>
-					    	</div>
+							</div>
+							<div class="col-md-4 hidden-xs hidden-sm">
+								<img src="<?php echo get_field('sidebar_image'); ?>" alt="">		
+							</div>
 						</div>
 					</div>
-				</div>
-				<div id="bars" class="hidden-xs hidden-sm">
-					<div class="orange"></div>
-					<div class="green"></div>
-					<div class="red"></div>
+					<div id="bars" class="hidden-xs hidden-sm">
+						<div class="orange"></div>
+						<div class="green"></div>
+						<div class="red"></div>
+					</div>
 				</div>
 			<?php endwhile; else: ?>
 			<?php endif; ?>	
 <?php get_footer(); ?>
+
