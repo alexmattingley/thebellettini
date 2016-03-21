@@ -53,7 +53,7 @@
 					<img id="logo" class="full-width" src="<?php echo $images_folder ?>/logo.jpg" />
 				</a>
 				<div class="col-sm-7 pull-right" id="top-links">
-					<span class="pull-right" id="phone">Call <?php echo $phone_number; ?></span>
+					<span class="pull-right" id="phone"><a href="tel:425-450-0800">Call <?php echo $phone_number; ?></a></span>
 				 	<div class="hidden-xs pull-right">
 						<div class="top-links">
 							 <?php wp_nav_menu( array( 'theme_location' => 'top-links' ) ); ?>
